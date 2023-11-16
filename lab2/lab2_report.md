@@ -11,8 +11,8 @@
 2. **Service** описан в [lab2.yaml](lab2.yaml), поэтому создавать его как в **lab1** не надо
 3. Проброс порта: **kubectl port-forward \<pod name\> \<port\>:3000**
 4. Выводы для двух контейнеров: \
-![cont1](cont1.png) ![cont2](cont2.png)
+![cont1](img/cont1.png) ![cont2](img/cont2.png)
 5. Логи: \
-![логи](logs.png)
+![логи](img/logs.png)
 6. Схема: \
-![схема контейнера и сервиса в кластере](scheme.png)
+![схема контейнера и сервиса в кластере](img/scheme.png)
