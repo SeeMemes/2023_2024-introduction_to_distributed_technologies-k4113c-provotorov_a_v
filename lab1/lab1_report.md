@@ -6,7 +6,7 @@
 **Author**: PROVOTOROV ALEKSANDR VLADIMIROVICH \
 **Lab**: Lab1 \
 **Date of create**: 01.11.2023 \
-**Date of finished**:  
+**Date of finished**:  02.11.2023
 1. Узнать статус контейнера: **minikube status**
 2. Начать работу (в 1 раз скачивает k8s): **minikube start**
 3. Применить манифест к кластеру: **kubectl apply -f .\myfirst.yaml**    
