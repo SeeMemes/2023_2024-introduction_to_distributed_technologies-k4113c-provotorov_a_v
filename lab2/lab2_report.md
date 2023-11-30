@@ -6,7 +6,7 @@
 **Author**: PROVOTOROV ALEKSANDR VLADIMIROVICH \
 **Lab**: Lab2 \
 **Date of create**: 15.11.2023 \
-**Date of finished**: 21.11.2023
+**Date of finished**: 16.11.2023
 1. Применить манифест к кластеру: **kubectl apply -f .\myfirst.yaml**
 2. **Service** описан в [lab2.yaml](lab2.yaml), поэтому создавать его как в **lab1** не надо
 3. Проброс порта: **kubectl port-forward \<pod name\> \<port\>:3000**

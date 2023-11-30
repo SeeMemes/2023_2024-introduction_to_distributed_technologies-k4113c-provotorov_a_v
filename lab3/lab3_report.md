@@ -9,7 +9,7 @@
 **Date of finished**: 
 1. Создали [lab3-configmap](lab_configmap.yaml), в котором описаны *uName* и *companyName* и применили **kubectl apply -f lab_configmap.yaml**
 2. Создали [lab3-replicaset](lab_replicaset.yaml), который берет поля из *lab3-configmap* и применили **kubectl apply -f lab_replicaset.yaml**
-3. [lab3-service](lab_service.yaml) имеет проброс порта 3000 из *replicaset* наружу на порт 8010 для всех реплик. Применим **kubectl apply -f lab_replicaset.yaml**
+3. [lab3-service](lab_service.yaml) имеет проброс порта 3000 из *replicaset* наружу на порт 8010 для всех реплик. Применим **kubectl apply -f lab_service.yaml**
 4. Включение ingress: **minikube addons enable ingress**
 5. Создание сертификата: **openssl req -x509 -newkey rsa:4096 -sha256 -days 12 -nodes -keyout tls.key -out tls.crt -subj "/CN=test.lab3.net"**
 6. Создание secret tls для ingres-а: **kubectl create secret tls lab3-local-tls --cert=tls.crt --key=tls.key**
