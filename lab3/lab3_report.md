@@ -5,8 +5,8 @@
 **Group**: K4113C \
 **Author**: PROVOTOROV ALEKSANDR VLADIMIROVICH \
 **Lab**: Lab2 \
-**Date of create**: 15.11.2023 \
-**Date of finished**: 16.11.2023
+**Date of create**: 28.11.2023 \
+**Date of finished**: 
 1. Создали [lab3-configmap](lab_configmap.yaml), в котором описаны *uName* и *companyName* и применили **kubectl apply -f lab_configmap.yaml**
 2. Создали [lab3-replicaset](lab_replicaset.yaml), который берет поля из *lab3-configmap* и применили **kubectl apply -f lab_replicaset.yaml**
 3. [lab3-service](lab_service.yaml) имеет проброс порта 3000 из *replicaset* наружу на порт 8010 для всех реплик. Применим **kubectl apply -f lab_replicaset.yaml**
